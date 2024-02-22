@@ -1,10 +1,10 @@
 <section class="section_container explore_container">
    <div class="explore_header">
       <h2 class="section_header">THE MYTH OF THERAPY</h2>
-      <div class="explore_nav">
+      {{-- <div class="explore_nav">
          <span><i class="ri-arrow-left-line"></i></span>
          <span><i class="ri-arrow-right-line"></i></span>
-      </div>
+      </div> --}}
    </div>
    <div class="explore_grid">
       <div class="explore_card">
