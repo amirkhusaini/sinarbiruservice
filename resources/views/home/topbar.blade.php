@@ -7,7 +7,7 @@
             <a href="#">Sinar Biru Services</a>
         </div>
         <ul class="nav_link">
-            <li class="link"><a href="">Whatsapp</a></li>
+            {{-- <li class="link"><a href="">Whatsapp</a></li> --}}
             {{-- <li class="link"><a href="">About</a></li>
             <li class="link"><a href="">Service</a></li>
             <li class="link"><a href="">Testimony</a></li> --}}
@@ -18,15 +18,19 @@
         <div class="header_content">
             <span class="bg_blur"></span>
             <span class="bg_blur header_blur"></span>
-            <h4>BEST JOUNDICE LIGHT IN TOWN</h4>
-            <h1><span>DELIVERY </span>INFRONT OF YOUR HOUSE</h1>
+            <h4>THE BEST JOUNDICE LIGHT IN TOWN</h4>
+            <h1><span>DELIVERY </span>RIGHT TO YOUR FRONT DOOR!</h1>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Modi rem id dolore incidunt iusto,
-                nobis repellendus tenetur laboriosam
-                mollitia fugit doloremque sapiente et
-                recusandae architecto. Maxime doloribus
-                expedita obcaecati cumque?
+               We cover all 
+               <span>Johor Bahru</span>, 
+               <span>Skudai</span>, 
+               <span>Kota Tinggi</span>,
+               <span>Kulai</span>,
+               <span>Nusajaya</span>,
+               <span>Pasir Gudang</span>,
+               <span>Pontian</span>,
+               <span>Senai</span>. <br>
+               Contact us to check you area are in our coverage.
             </p>
             <button class="btn">Contact Us</button>
         </div>
