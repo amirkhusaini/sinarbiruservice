@@ -21,21 +21,54 @@
             <h4>THE BEST JOUNDICE LIGHT IN TOWN</h4>
             <h1><span>DELIVERY </span>RIGHT TO YOUR FRONT DOOR!</h1>
             <p>
-               We cover all 
-               <span>Johor Bahru</span>, 
-               <span>Skudai</span>, 
-               <span>Kota Tinggi</span>,
-               <span>Kulai</span>,
-               <span>Nusajaya</span>,
-               <span>Pasir Gudang</span>,
-               <span>Pontian</span>,
-               <span>Senai</span>. <br>
-               Contact us to check you area are in our coverage.
+                We cover all
+                <span>Johor Bahru</span>,
+                <span>Skudai</span>,
+                <span>Kota Tinggi</span>,
+                <span>Kulai</span>,
+                <span>Nusajaya</span>,
+                <span>Pasir Gudang</span>,
+                <span>Pontian</span>,
+                <span>Senai</span>. <br>
+                Contact us to check you area are in our coverage.
             </p>
             <button class="btn">Contact Us</button>
         </div>
         <div class="header_image">
-            <img src="{{ asset('image/therapy4.jpg') }}" alt="Header">
+            <div class="slick">
+                <div>
+                    <img src="{{ asset('image/product2.jpeg') }}" alt="Header">
+                </div>
+                <div>
+                    <img src="{{ asset('image/product3.PNG') }}" alt="Header">
+                </div>
+                <div>
+                    <img src="{{ asset('image/product4.PNG') }}" alt="Header">
+                </div>
+            </div>
+            {{-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">0</li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="{{ asset('image/product2.jpeg') }}" alt="Header">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{{ asset('image/product2.jpeg') }}" alt="Header">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> --}}
         </div>
     </header>
     {{-- content --}}

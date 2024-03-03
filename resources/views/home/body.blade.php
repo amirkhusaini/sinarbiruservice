@@ -2,7 +2,7 @@
    <div class="class_image">
       <span class="bg_blur"></span>
       <img src="{{ asset('image/therapy3.jpg') }}" alt="image" class="class_img-1">
-      <img src="{{ asset('image/therapy2.jpg') }}" alt="image" class="class_img-2">
+      <img src="{{ asset('image/product1.jpeg') }}" alt="image" class="class_img-2">
    </div>
    <div class="class_content">
       <h2 class="section_header">OUR SERVICES</h2>
@@ -67,14 +67,14 @@
    <div class="join_image">
       <img src="{{ asset('image/therapy2.jpg') }}" alt="Image">
       <div class="join_grid">
-         <a href="#v" class="join_card">
+         <a href="{{ asset('pdf/mda.pdf') }}" target="_blank" class="join_card">
                <span><i class="ri-survey-line"></i></span>
                <div class="join_card_content">
                   <h4>KKM Certificate</h4>
                   <p>Our Product Are KKM Certified.</p>
                </div>
          </a>
-         <a href="#a" class="join_card">
+         <a href="https://maps.app.goo.gl/PF29qTemAAtMZzAw9" target="_blank" class="join_card">
             <span><i class="ri-global-fill"></i></span>
             <div class="join_card_content">
                <h4>Huge Johor Coverage</h4>
