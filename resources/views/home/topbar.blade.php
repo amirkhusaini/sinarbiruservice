@@ -4,13 +4,13 @@
     {{-- topbar --}}
     <nav>
         <div class="nav_logo">
-            <a href="#">Sinar Biru Services</a>
+            <a href="/">
+                <img src="{{ asset('image/logo/SBS.png') }}" alt="logo">
+            </a>
+            <p><span class="name">Fototerapi Bayi Kuning</span></p>
         </div>
         <ul class="nav_link">
-            {{-- <li class="link"><a href="">Whatsapp</a></li> --}}
-            {{-- <li class="link"><a href="">About</a></li>
-            <li class="link"><a href="">Service</a></li>
-            <li class="link"><a href="">Testimony</a></li> --}}
+            <li class="link"><a href=""><span class="icon"><img src="{{ asset('image/whatsapp/WhatsAppButtonGreenSmall.svg') }}" alt=""></span></a></li>
         </ul>
     </nav>
 
@@ -32,43 +32,20 @@
                 <span>Senai</span>. <br>
                 Contact us to check you area are in our coverage.
             </p>
-            <button class="btn">Contact Us</button>
+            <button class="whatsapp"><span class="icon"><img src="{{ asset('image/whatsapp/WhatsAppButtonGreenSmall.svg') }}" alt=""></span></button>
         </div>
         <div class="header_image">
             <div class="slick">
                 <div>
-                    <img src="{{ asset('image/product2.jpeg') }}" alt="Header">
+                    <img src="{{ asset('image/product2.jpeg') }}" alt="Header" class="img-fluid">
                 </div>
                 <div>
-                    <img src="{{ asset('image/product3.PNG') }}" alt="Header">
+                    <img src="{{ asset('image/product3.PNG') }}" alt="Header" class="img-fluid">
                 </div>
                 <div>
-                    <img src="{{ asset('image/product4.PNG') }}" alt="Header">
+                    <img src="{{ asset('image/product4.PNG') }}" alt="Header" class="img-fluid">
                 </div>
             </div>
-            {{-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">0</li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="{{ asset('image/product2.jpeg') }}" alt="Header">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{ asset('image/product2.jpeg') }}" alt="Header">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div> --}}
         </div>
     </header>
     {{-- content --}}

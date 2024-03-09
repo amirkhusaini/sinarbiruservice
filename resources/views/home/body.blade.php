@@ -103,23 +103,23 @@
       <h2 class="section_header">CUSTOMER REVIEW</h2>
       <div class="slider">
          <div class="slider-track">
-            <div class="slide"><img src="{{ asset('image/therapy.jpg') }} " alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy2.jpg') }}" alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy3.jpg') }}" alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy4.jpg') }}" alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy.jpg') }} " alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy2.jpg') }}" alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy3.jpg') }}" alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy4.jpg') }}" alt="Review"></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test1.jpg') }} " alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test2.jpg') }}" alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test3.jpg') }}" alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test4.jpg') }}" alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test5.jpg') }} " alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test6.jpg') }}" alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test7.jpg') }}" alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test8.jpg') }}" alt="Review"></a></div>
             {{-- Double same slide --}}
-            <div class="slide"><img src="{{ asset('image/therapy.jpg') }} " alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy2.jpg') }}" alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy3.jpg') }}" alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy4.jpg') }}" alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy.jpg') }} " alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy2.jpg') }}" alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy3.jpg') }}" alt="Review"></div>
-            <div class="slide"><img src="{{ asset('image/therapy4.jpg') }}" alt="Review"></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test1.jpg') }} " alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test2.jpg') }}" alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test3.jpg') }}" alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test4.jpg') }}" alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test5.jpg') }} " alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test6.jpg') }}" alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test7.jpg') }}" alt="Review"></a></div>
+            <div class="slide"><a href="https://www.facebook.com/phototherapyjohor?mibextid=ZbWKwL" target="_blank"><img src="{{ asset('image/testimony/test8.jpg') }}" alt="Review"></a></div>
          </div>
       </div>
    </div>

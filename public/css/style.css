@@ -6,6 +6,7 @@
    --primary-color-extra-light: #35373b;
    --secondary-color: #f9ac54;
    --secondary-color-dark: #d79447;
+   --whatsapp: #25d366;
    --text-light: #d1d5db;
    --white: #ffffff;
    --max-width: 1900px;
@@ -50,8 +51,25 @@
    transition: 0.3s;
 }
 
+.whatsapp{
+   padding: 1rem 1rem;
+   outline: none;
+   border: none;
+   font-size: 1rem;
+   color: var(--white);
+   background-color: var(--whatsapp);
+   border-radius: 25px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.whatsapp .icon{
+   width: 50px;
+}
+
 .btn:hover {
-   background-color: var(--secondary-color-dark);
+   /* background-color: var(--secondary-color-dark); */
+   box-shadow: 2px 2px 3px #999;
 }
 
 
@@ -83,7 +101,7 @@ body {
 nav {
    max-width: var(--max-width);
    margin: auto;
-   padding: 2rem 1rem;
+   padding: 1rem 1rem;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -91,8 +109,37 @@ nav {
 }
 
 
-.nav_logo {
-   max-width: 150px;
+.nav_logo{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   width: 250px;
+   justify-content: center;
+   align-items: center;
+   justify-items: center;
+   align-content: center;
+   gap: 1rem;
+}
+
+.nav_logo img{
+   border-radius: 50%;
+}
+
+.nav_logo a{
+   color: var(--text-light);
+   text-decoration: none;
+}
+
+.nav_logo .name{
+   color: var(--secondary-color-dark);
+}
+
+.nav_logo .ads{
+   color: var(--secondary-color);
+}
+
+.nav_logo span{
+   font-weight: 300;
+   text-align: center;
 }
 
 .nav_link {
@@ -115,7 +162,7 @@ nav {
    width: 0;
    left: 0;
    bottom: 0;
-   background-color: var(--secondary-color);
+   /* background-color: var(--secondary-color); */
    transition: 0.3s;
 }
 
@@ -202,7 +249,8 @@ nav {
 
 .header_image img {
    max-width: 350px;
-   max-height: 600px;
+   max-height: 550px;
+   object-fit: cover;
    margin: auto;
 }
 
@@ -468,7 +516,7 @@ nav {
 }
 
 .slider {
-   height: 250px;
+   height: 350px;
    margin: auto;
    position: relative;
    width: 90%;
@@ -515,8 +563,8 @@ nav {
    transition: 0.4s;
 }
 
-.slider img:hover {
-   transform: translateZ(20px);
+.slider a:hover {
+   transform: translateZ(10px);
 }
 
 .slider::before,
@@ -669,7 +717,7 @@ nav {
    }
 
    .header_image{
-      max-width: 400px;
+      max-width: 380px;
       margin: -0.5rem;
       position: relative;
    }
