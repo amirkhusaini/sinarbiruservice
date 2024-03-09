@@ -52,7 +52,6 @@
 }
 
 .whatsapp{
-   padding: 1rem 1rem;
    outline: none;
    border: none;
    font-size: 1rem;
@@ -67,11 +66,14 @@
    width: 50px;
 }
 
+.whatsapp img{
+   width: 250px;
+}
+
 .btn:hover {
    /* background-color: var(--secondary-color-dark); */
    box-shadow: 2px 2px 3px #999;
 }
-
 
 a {
    text-decoration: none;
