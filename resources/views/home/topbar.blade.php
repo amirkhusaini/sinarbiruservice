@@ -10,7 +10,7 @@
             <p><span class="name">Fototerapi Bayi Kuning</span></p>
         </div>
         <ul class="nav_link">
-            <li class="link"><a href="https://wa.me/127843100?text=Hi, Saya hendak membuat tempahan lampu Jaundice." target="_blank"><span class="icon"><img src="{{ asset('image/whatsapp/WhatsAppButtonGreenSmall.svg') }}" alt=""></span></a></li>
+            <li class="link"><a href="https://wa.me/127659572?text=Hi, Saya hendak membuat tempahan lampu Jaundice." target="_blank"><span class="icon"><img src="{{ asset('image/whatsapp/WhatsAppButtonGreenSmall.svg') }}" alt=""></span></a></li>
         </ul>
     </nav>
 
@@ -32,7 +32,7 @@
                 <span>Senai</span>. <br>
                 Contact us to check you area are in our coverage.
             </p>
-            <a class="whatsapp" href="https://wa.me/127843100?text=Hi, Saya hendak membuat tempahan lampu Jaundice." target="_blank"><span class="icon"><img src="{{ asset('image/whatsapp/WhatsAppButtonGreenSmall.svg') }}" alt=""></span></a>
+            <a class="whatsapp" href="https://wa.me/127659572?text=Hi, Saya hendak membuat tempahan lampu Jaundice." target="_blank"><span class="icon"><img src="{{ asset('image/whatsapp/WhatsAppButtonGreenSmall.svg') }}" alt=""></span></a>
         </div>
         <div class="header_image">
             <div class="slick">
